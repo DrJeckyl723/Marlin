@@ -270,9 +270,9 @@
 
 #define HEATER_BED_PIN                      PA2   // Hotbed
 
-#define FAN_PIN                             PE5   // Fan0
-#define FAN1_PIN                            PE6   // Fan1
-#define FAN2_PIN                            PC8   // Fan2
+#define FAN_PIN                             PE5   // Fan0 (Layer fan)
+#define FAN1_PIN                            PE6   // Fan1 (Hotend fan)
+#define FAN2_PIN                            PC8   // Fan2 (Controller fan)
 
 #define FAN3_PIN                            PI5   // Fan3
 #define FAN4_PIN                            PE9   // Fan4
